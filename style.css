@@ -43,3 +43,56 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+html {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h1, h2 {
+	letter-spacing: 1.5px;
+}
+
+body {
+	line-height: 1.75;
+	letter-spacing: .5px;
+	word-spacing: 1px;
+}
+
+h2 + p {
+	text-indent: 1.25rem;
+}
+
+a {
+	color: #a66;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:focus {
+	background-color: pink;
+	color: purple;
+	text-decoration-line: none;
+	outline-style: none;
+}
+
+a:hover {
+	background-color: pink;
+	color: black;
+	text-decoration-line: none;
+}
+
+p > a::after {
+	content:url(./external-link-52.png);
+	font-size: smaller;
+}
