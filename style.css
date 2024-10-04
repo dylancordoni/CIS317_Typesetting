@@ -110,19 +110,30 @@ ul, ol {
 	list-style-type: square;
 }
 
-nav {
 
-}
 
 nav > ul {
+	margin: 0px;
+	padding: 0px;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 nav > ul > li {
-	margin: 0px 10px;
-	border: 1px solid;
-	border-color: #a66;
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 60px;
+	width: 180px;
+	margin: 10px auto;
+	border: 1px solid;
+	border-color: #a66;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+nav > ul > li > a {
+	text-decoration-line: none;
 }
