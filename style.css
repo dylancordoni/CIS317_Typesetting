@@ -106,6 +106,23 @@ a[href^="http"]::after {
 	background-image: url("external-link-52.png");
 }
 
-ul {
+ul, ol {
 	list-style-type: square;
+}
+
+nav {
+
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: column;
+}
+
+nav > ul > li {
+	margin: 0px 10px;
+	border: 1px solid;
+	border-color: #a66;
+	align-items: center;
+	justify-content: center;
 }
